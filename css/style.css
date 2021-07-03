@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: monospace;
+
+}
+h1{
+  line-height: 2;
+  color: #66BFBF;
+  font-size: 40px;
+  margin-top: 0;
+  font-family: 'sacramento', cursive;
+
+}
+h2{
+  line-height: 2;
+  font-weight: normal;
+  color: #66BFBF;
+  background-color: #F7DBF0;
+}
+h3{
+  color: #11999E
+}
+
+.top-container{
+  background-color: #B5EAEA;
+
+  padding-top: 100px;
+}
+img{
+  height: 100px;
+}
+
+.mid-container{
+
+}
+
+
+.bottom-container{
+
+
+}
+
+.Category-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Mandalas{
+  float: left;
+  margin-right: 30px;
+}
+
+.Painting{
+float: right;
+margin-left: 30px;
+}
+.Instagram{
+  height: 15px;
+  display: inline-table;
+  align-items: center;
+  justify-content: center;
+}
+
+.Youtube{
+  height: 15px;
+  display: inline-table;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactMe{
+  height: 15px;
+  display: inline-table;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
