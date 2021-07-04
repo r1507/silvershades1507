@@ -21,10 +21,27 @@ h2{
 h3{
   color: #11999E
 }
+p{
+  line-height: 2;
+}
 
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
 .top-container{
   background-color: #B5EAEA;
-
   padding-top: 100px;
 }
 img{
@@ -32,11 +49,17 @@ img{
 }
 
 .mid-container{
+  margin: 100px 0 0;
 
 }
 
 
 .bottom-container{
+  color: white;
+  font-size: 15px;
+  background-color: #66BFBF;
+  margin-top: 100px;
+  padding: 40px 0 30px;
 
 
 }
@@ -45,7 +68,6 @@ img{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .Mandalas{
@@ -57,28 +79,53 @@ img{
 float: right;
 margin-left: 30px;
 }
-.Instagram{
-  height: 15px;
-  display: inline-table;
-  align-items: center;
-  justify-content: center;
-}
-
-.Youtube{
-  height: 15px;
-  display: inline-table;
-  align-items: center;
-  justify-content: center;
-}
-
-.ContactMe{
-  height: 15px;
-  display: inline-table;
-  align-items: center;
-  justify-content: center;
-
-}
 
 .pro {
   text-decoration: underline;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.ContactMe{
+  width: auto;
+  height: 10px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.Instagram{
+  height: 20px;
+  margin-top: 20px;
+
+}
+
+.Youtube{
+  height: 20px;
+margin-top: 20px;
 }
